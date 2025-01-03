@@ -1,0 +1,19 @@
+{
+  "name": "binance-arbitrage",
+  "version": "1.0.0",
+  "description": "Binance arbitrage trading system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "binance-api-node": "^0.12.6",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
+}

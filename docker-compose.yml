@@ -1,0 +1,9 @@
+version: '3'
+services:
+  arbitrage-bot:
+    build: .
+    restart: always
+    volumes:
+      - ./logs:/app/logs
+    env_file:
+      - .env
